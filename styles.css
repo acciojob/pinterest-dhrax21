@@ -1,1 +1,58 @@
-/*  your css code here. If applicable */
+.hero {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-item {
+    width: 100%;
+    max-width: 1260px; /* set the max-width to match the image width */
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .hero-content img {
+    width: 60%; /* adjust the width of the image as desired */
+    height: auto;
+    margin:0px;
+    object-fit: cover;
+  }
+  
+  .writing {
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  
+  .writing h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .writing p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #E60023;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .buttons button:hover {
+    background-color: #D60021;
+  }
+  
